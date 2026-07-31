@@ -1,0 +1,107 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.song-card {
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  padding: 12px 16px;
+  margin: 4px 0;
+  background: rgba(255, 255, 255, 0.04);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.song-card::before {
+  content: '';
+  width: 46px;
+  height: 46px;
+  min-width: 46px;
+  border-radius: 10px;
+  background-color: #242424;
+  background-image: 
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E"),
+    linear-gradient(135deg, #ff0033 0%, #3a000d 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: 20px 20px, cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.song-card:nth-of-type(1)::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E"), linear-gradient(135deg, #ff0033 0%, #600015 100%);
+}
+
+.song-card:nth-of-type(2)::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E"), linear-gradient(135deg, #e50914 0%, #2b0008 100%);
+}
+
+.song-card:nth-of-type(3)::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E"), linear-gradient(135deg, #ff1744 0%, #4a0010 100%);
+}
+
+.song-card:nth-of-type(4)::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E"), linear-gradient(135deg, #d50000 0%, #1a0005 100%);
+}
+
+.song-card div {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.song-card h3 {
+  margin: 0 0 4px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+  transition: color 0.2s ease;
+}
+
+.song-card p {
+  margin: 0;
+  font-size: 13px;
+  color: #aaaaaa;
+  font-weight: 400;
+}
+
+.song-card::after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  opacity: 0.35;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'%3E%3Cpath d='M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z'/%3E%3C/svg%3E") no-repeat center / contain;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.song-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 0, 51, 0.35);
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 0, 51, 0.15);
+}
+
+.song-card:hover::before {
+  transform: scale(1.06);
+  box-shadow: 0 4px 15px rgba(255, 0, 51, 0.45);
+}
+
+.song-card:hover h3 {
+  color: #ff334b;
+}
+
+.song-card:hover::after {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
