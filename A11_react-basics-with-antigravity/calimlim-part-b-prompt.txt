@@ -1,0 +1,23 @@
+Analyze the styling in @src/App.css and @src/components/tracks/SongList.css.
+
+Redesign my playlist application to look like the YouTube Music mobile app while keeping all existing React functionality unchanged.
+
+Use a modern dark theme with red accent colors inspired by YouTube Music.
+
+Improve the overall appearance by:
+- Creating a centered mobile-style playlist container with rounded corners and a subtle shadow.
+- Styling the header to look clean and premium.
+- Making the playlist title larger and more eye-catching.
+- Improving the song cards with rounded corners, better spacing, smooth hover animations, and a cleaner layout.
+- Styling the divider so it blends naturally with the design.
+- Improving the typography, spacing, and footer.
+- Adding subtle transitions and hover effects for a more modern user experience.
+- Making the layout responsive so it looks good on both desktop and mobile.
+
+Do not add, remove, rename, or move any files.
+
+Modify only:
+- src/App.css
+- src/components/tracks/SongList.css
+
+Keep the existing React components and functionality exactly the same. Only improve the CSS styling.
