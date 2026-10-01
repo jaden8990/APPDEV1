@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Refresher</title>
+</head>
+<body>
+
+  <h1>About Me</h1>
+  <p>I don't know.</p>
+
+  <!-- Inline JavaScript -->
+  <script>
+    console.log("This is inline JavaScript.");
+  </script>
+
+  <!-- External JavaScript -->
+  <script type="module" src="app.js"></script>
+
+  <script type="module">
+  import { userInfo } from "./15_modules_export.js";
+  console.log(userInfo.name);
+  console.log(userInfo.age);
+</script>
+
+</body>
+</html>
