@@ -1,17 +1,12 @@
-export const userInfo = {
+const studentInfo = {
   name: "Jaden Calimlim",
-  age: "21"
+  age: 21,
+  course: "Information Technology"
 };
 
 function greet(name) {
   return `Hello, ${name}! Welcome to this page.`;
 }
 
-const userInfo = {
-  name: "jaden",
-  age: 20,
-  course: "Information Technology"
-};
-
 export default greet;
-export { userInfo };
+export { studentInfo };
