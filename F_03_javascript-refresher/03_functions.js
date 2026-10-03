@@ -17,3 +17,14 @@ console.log("Square:", square(7));
 const results = calculator(8, 4);
 console.log("Sum:", results.sum);
 console.log("Product:", results.product);
+
+
+function showFavorites() {
+  console.log("Welcome to My Favorites");
+  console.log("Cartoons");
+  console.log("Action");
+  console.log("Horror");
+  console.log("Drama");
+}
+
+showFavorites();

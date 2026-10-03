@@ -64,3 +64,33 @@ After editing:
 3. If there is an error, explain the error before fixing it.*
 
 *Reflection: Sa part na ito, natutunan ko ang difference ng let at const sa JavaScript. Ginamit ko ang const para sa movie types na hindi kailangang baguhin, habang ginamit ko ang let para ipakita na puwedeng magbago ang value ng isang variable. Mas naintindihan ko kung paano ginagamit ang variables para mag-store ng different types of information sa JavaScript.*
+
+# 03_functions.js
+
+*prompt: Open 03_function.js.
+
+Create a simple JavaScript function named `welcomeMessage` that accepts a movie type as a parameter.
+
+Call the function four times using:
+- Cartoons
+- Action
+- Horror
+- Drama
+
+Don't duplicate the file
+
+The output should say:
+Welcome to My Favorites: Cartoons
+Welcome to My Favorites: Action
+Welcome to My Favorites: Horror
+Welcome to My Favorites: Drama
+
+Focus on function parameters and function calls.
+Keep it beginner-friendly and do not use arrays, objects, loops, or imports.
+
+After editing, run:
+node 03_function.js
+
+Show me the output. If there is an error, explain it before fixing it.*
+
+*reflection: Ang natutunan ko sa part na ito, Ginamit ko ang function para i-display ang mga favorite movie types ko. Nakatulong ito para maintindihan ko kung paano gawing organized at reusable ang code.*
