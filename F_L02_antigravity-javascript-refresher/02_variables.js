@@ -1,16 +1,14 @@
-let name = "Janna";
-let age = 20;
-let isStudent = true;
+console.log("Welcome to My Favorites");
 
-console.log(name, typeof name);
-console.log(age, typeof age);
-console.log(isStudent, typeof isStudent);
+const movieType1 = "Cartoons";
+const movieType2 = "Action";
+const movieType3 = "Horror";
+let movieType4 = "Sci-Fi";
 
-let numberOne = 15;
-let numberTwo = 5;
+// Reassigning let variable
+movieType4 = "Drama";
 
-console.log("Addition:", numberOne + numberTwo);
-console.log("Division:", numberOne / numberTwo);
-
-console.log("5" == 5);  
-console.log("5" === 5);
+console.log(movieType1);
+console.log(movieType2);
+console.log(movieType3);
+console.log(movieType4);
