@@ -94,3 +94,33 @@ node 03_function.js
 Show me the output. If there is an error, explain it before fixing it.*
 
 *reflection: Ang natutunan ko sa part na ito, Ginamit ko ang function para i-display ang mga favorite movie types ko. Nakatulong ito para maintindihan ko kung paano gawing organized at reusable ang code.*
+
+# 04_objects.js
+
+*prompt: Open 04_objects.js.
+
+Create one simple JavaScript object about my favorite movie.
+
+Use:
+- title: "Trolls"
+- genre: "Cartoons"
+- mood: "Fun"
+
+Display the values using console.log().
+
+Focus only on learning JavaScript objects and properties.
+
+Keep the code short and beginner-friendly.
+Do not add functions, arrays, loops, imports, or extra concepts.
+
+After editing, run:
+node 04_objects.js
+
+Show me the output.
+If there is an error, explain it before fixing it.
+
+Do not modify any other files.
+
+If you have a simple suggestion to improve the object, suggest it first and do not add it automatically.*
+
+*Reflection: Nagustutuham ko kung pano ko ginamit na example yung mga favorite movie, mas naging madali siyang intindihin at mas nakakaexcite. Natutunan ko rin kung paano kunin ang specific information gamit ang properties ng object.*
