@@ -147,3 +147,32 @@ If there is an error, explain it before fixing it.
 Do not modify any other files.*
 
 *reflection: Nalaman ko na useful ang array kapag may maraming related na values na gusto kong ilagay sa isang variable.*
+
+# 06_control_structures.js
+
+*prompt:Open 06_control_structures.js.
+
+Create a simple JavaScript example using an if-else statement.
+
+Use:
+const movieType = "Horror";
+
+If the movie type is "Horror", display:
+"I like Horror movies."
+
+Otherwise, display:
+"I like other movie types."
+
+Keep the code short and beginner-friendly.
+Focus only on if-else control structures.
+Do not add functions, arrays, objects, loops, or imports.
+
+After editing, run:
+node 06_control_structures.js
+
+Show me the output.
+If there is an error, explain it before fixing it.
+
+Do not modify any other files.*
+
+*reflection: Ginamit ko ang movie type na Horror para makita kung paano nagbabago ang output depende sa condition.Simple lang yung example ko pero nakita ko kung paano gumana ang if-else kapag may kailangang i-check na value. Na-realize ko na useful ito kapag gusto kong magkaroon ng different output depende sa situation.*
