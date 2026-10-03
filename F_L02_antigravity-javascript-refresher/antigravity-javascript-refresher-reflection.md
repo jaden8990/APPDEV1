@@ -124,3 +124,26 @@ Do not modify any other files.
 If you have a simple suggestion to improve the object, suggest it first and do not add it automatically.*
 
 *Reflection: Nagustutuham ko kung pano ko ginamit na example yung mga favorite movie, mas naging madali siyang intindihin at mas nakakaexcite. Natutunan ko rin kung paano kunin ang specific information gamit ang properties ng object.*
+
+# 05_arrays.js
+
+*prompt: Open 05_arrays.js.
+
+Create an array named `favoriteMovies` with:
+"Trolls", "Hotel Transylvania", "Inside Out"
+
+Use console.log() to display the array.
+
+Keep it simple and short.
+Focus only on JavaScript arrays.
+Do not add functions, objects, loops, or imports.
+
+Run:
+node 05_arrays.js
+
+Show me the output.
+If there is an error, explain it before fixing it.
+
+Do not modify any other files.*
+
+*reflection: Nalaman ko na useful ang array kapag may maraming related na values na gusto kong ilagay sa isang variable.*
