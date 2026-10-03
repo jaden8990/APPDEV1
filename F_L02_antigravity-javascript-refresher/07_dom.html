@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Page</title>
+</head>
+<body>
+  <h1>Welcome to My DOM Page!</h1>
+
+  <button id="changeBackground">Change Background Color</button>
+
+  <p id="message">please wait!</p>
+
+  <script>
+    const button = document.getElementById("changeBackground");
+    const message = document.getElementById("message");
+
+    button.addEventListener("click", function () {
+      const color = prompt("Enter a background color (e.g., lightblue):");
+
+      if (color) {
+        document.body.style.backgroundColor = color;
+      }
+    });
+
+    setTimeout(function () {
+      message.textContent = "Hello! The paragraph has been updated .";
+    }, 2000);
+  </script>
+</body>
+</html>
