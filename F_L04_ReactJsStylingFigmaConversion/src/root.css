@@ -1,0 +1,48 @@
+@import "./root.css";
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /* ---------- Colors ---------- */
+    --color-primary: #5b86e5;
+    --color-background: #a9c0f0;
+    --color-surface: #ffffff;
+    --color-text: #333333;
+    --color-text-light: #ffffff;
+    --color-placeholder: #9a9a9a;
+    --color-border: #333333;
+
+    /* ---------- Font family ---------- */
+    --font-family-base: "Inter", sans-serif;
+
+    /* ---------- Font sizes ---------- */
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-lg: 20px;
+    --font-size-heading: 28px;
+    --font-size-tagline: 32px;
+
+    /* ---------- Font weights ---------- */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* ---------- Spacing ---------- */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-2xl: 48px;
+
+    /* ---------- Borders and radius ---------- */
+    --border-width: 1px;
+    --radius-sm: 8px;
+    --radius-lg: 60px;
+
+    /* ---------- Effects ---------- */
+    --shadow-logo: 0 20px 20px rgba(60, 80, 140, 0.35);
+}
